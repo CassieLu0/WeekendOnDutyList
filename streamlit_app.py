@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title(" Weekend's On Duty List")
+st.title(" Weekend Regional Support Specialist Scheduler")
 st.write(
     "Type in Month and it will generate the Weekends's duty list for GOFO Regional Support Specialist Department"
 )
@@ -8,15 +8,8 @@ st.write(
 import calendar
 import random
 from datetime import date
-
 import pandas as pd
 import streamlit as st
-
-
-st.set_page_config(page_title="Weekend Scheduler", layout="wide")
-
-st.title("Weekend Regional Support Specialist Scheduler")
-st.caption("Enter a month, year, and your department name list. The app will generate all weekend dates and assign them as evenly as possible.")
 
 FIXED_NAMES = [
     "Hanfei Qi",
