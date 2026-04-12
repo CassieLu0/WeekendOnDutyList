@@ -23,6 +23,7 @@ FIXED_NAMES = [
     "Enze Zhang",
     "Wenli Gai",
     "Miguel Angel Correa",
+    "Yizhou Miao"
 ]
 
 st.subheader("Regional Support Specialist Team")
